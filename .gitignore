@@ -36,3 +36,7 @@ xbound_list_with_ignored_x_source
 faults_bypass_on
 
 Makefile
+
+# Machine-specific Synopsys example configuration and generated output
+synopsys_flow/*/setup.local.sh
+synopsys_flow/*/work/

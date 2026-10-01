@@ -1,0 +1,11 @@
+# Copy this file to setup.local.sh and fill in the paths for your installation.
+# setup.local.sh is ignored by Git. Use absolute paths, even when the project
+# or work directory is somewhere else.
+
+B18_RTL="/path/to/itc99/b18/b18.vhd"
+B18_TARGET_LIBRARY="/path/to/technology/standard_cells.db"
+B18_DW_LIBRARY="/path/to/synopsys/libraries/syn/dw_foundation.sldb"
+B18_TMAX_LIBRARY="/path/to/technology/standard_cells_tmax.v"
+
+# Optional: generated netlists, protocols, patterns and reports go here.
+# B18_WORK_DIR="/path/to/b18/work"
