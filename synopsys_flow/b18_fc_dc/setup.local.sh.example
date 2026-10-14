@@ -1,0 +1,23 @@
+# Copy this file to setup.local.sh and fill in your installation's paths.
+# setup.local.sh is ignored by Git. Use absolute paths and quote them,
+# including paths that contain spaces.
+
+B18_RTL="/path/to/itc99/b18/b18.vhd"
+B18_PDK_ROOT="/path/to/SAED32_EDK"
+B18_DW_LIBRARY="/path/to/synopsys/libraries/syn/dw_foundation.sldb"
+
+# Optional: shared by FC scan insertion and DC post-scan LBIST insertion.
+# B18_SCAN_CHAIN_COUNT=32
+
+# Optional: netlists, protocols, testbench files, design library, and tool logs.
+# The default is this example's work/ directory.
+# B18_WORK_DIR="/path/to/b18_fc_dc/work"
+
+# Optional: override individual files if your PDK has a different layout.
+# Keep the logical library, physical files, and RC models consistent.
+# B18_TARGET_LIBRARY="/path/to/saed32rvt_tt1p05v125c.db"
+# B18_LEF_FILE="/path/to/saed32nm_rvt_1p9m.lef"
+# B18_TECH_FILE="/path/to/saed32nm_1p9m_mw.v10.tf"
+# B18_RC_MAX_FILE="/path/to/saed32nm_1p9m_Cmax.tluplus"
+# B18_RC_MIN_FILE="/path/to/saed32nm_1p9m_Cmin.tluplus"
+# B18_RC_MAP_FILE="/path/to/saed32nm_tf_itf_tluplus.map"
